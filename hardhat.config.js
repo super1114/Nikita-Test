@@ -29,16 +29,16 @@ module.exports = {
       url: "http://127.0.0.1:7545",
       accounts: [process.env.PRIVATEKEY]
     },
-    fantomtestnet: {
-      url: "https://rpc.testnet.fantom.network",
-      accounts: [process.env.PRIVATEKEY]
-    },
     eth: {
       url: "https://ethereum-rpc.icicbchain.org",
       accounts: [process.env.PRIVATEKEY]
     },
+    ropesten: {
+      url: "https://ropesten n.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      accounts: [process.env.PRIVATEKEY]
+    },
     rinkeby: {
-      url: "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      url: "https://rinkeby n.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
       accounts: [process.env.PRIVATEKEY]
     }
   }
